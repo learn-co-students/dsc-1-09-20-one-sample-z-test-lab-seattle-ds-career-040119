@@ -1,22 +1,20 @@
 
-# One-sample z-test - Lab
+# One-Sample z-test - Lab
 
-### Introduction
-In this lab we will go through quick tests to help you better understand the ideas around hypothesis testing.
+## Introduction
+In this lab you'll perform a few quick tests to help you better understand how hypothesis testing works.
 
 ## Objectives
-You would be able to
-* Understand and explain use cases for a 1-sample z-test
+You will be able to:
+* Understand and explain use cases for a one-sample z-test
 * Set up null and alternative hypotheses
-* Calculate z statistic using z-tables and cdf functions
-* Calculate and interpret p-value for significance of results.
+* Calculate z-statistic using z-tables and CDF functions
+* Calculate and interpret p-value for significance of results
 
 ## Exercise 1
-A rental car company claims the mean time to rent a car on their website is 60 seconds with a standard deviation of 30 seconds. A random sample of 36 customers attempted to rent a car on the website. The mean time to rent was 75 seconds. Is this enough evidence to contradict the company's claim? 
+A fast food chain claims that the mean time to order food at their restaurants is 60 seconds, with a standard deviation of 30 seconds. You decide to take this claim to the test and go to one of the restaurants to observe actual waiting times. You take a sample of 36 customers and find that the mean order time was 75 seconds. Does this finding prove enough evidence to contradict the fast food chain's claim of fast service?
 
-<img src="http://www.guptatravelsjabalpur.com/wp-content/uploads/2016/04/car-rentalservice.jpg" width=400>
-
-Follow the 5 steps shown in previous lesson and use alpha = 0.05. 
+Follow the 5 steps shown in previous lesson and use $\alpha$ = 0.05. 
 
 
 ```python
@@ -34,29 +32,25 @@ Follow the 5 steps shown in previous lesson and use alpha = 0.05.
 
 
 ```python
-# Interpret the results in terms of p-value obtained
+# Interpret the results in terms of the p-value
 
 
 ```
 
 ## Exercise 2
 
-Twenty five students complete a preparation program for taking the SAT test.  Here are the SAT scores from the 25 students who completed  program:
+25 students complete a preparation program for taking the SAT test.  Here are the SAT scores from the 25 students who completed  program:
 
 ``
-434 694 457 534 720 400 484 478 610 641 425 636 454
+434 694 457 534 720 400 484 478 610 641 425 636 454 
 514 563 370 499 640 501 625 612 471 598 509 531
 ``
 
-<img src="http://falearningsolutions.com/wp-content/uploads/2015/09/FAcogtrain71FBimage.jpg" width=400>
-
 We know that the population average for SAT scores is 500 with a standard deviation of 100.
 
-The question is, are these students’ SAT scores significantly greater than a population mean? 
+Are our 25 students’ SAT scores significantly bigger than a population mean? 
 
-*Note that the the maker of the SAT prep program claims that it will increase (and not decrease) your SAT score.  So, you would be justified in conducting a one-directional test. (alpha = .05).*
-
-
+*Note that the SAT preparation program claims that it will increase (and not decrease) the SAT score.  So, you can conduct a one-directional test. (alpha = .05).*
 
 
 ```python
@@ -75,10 +69,10 @@ The question is, are these students’ SAT scores significantly greater than a p
 
 
 ```python
-# Interpret the results in terms of p-value obtained
+# Interpret the results in terms of the p-value
 
 ```
 
 ## Summary
 
-In this lesson, we conducted a couple of simple tests comparing sample and population means, in an attempt to reject our null hypotheses. This provides you with a strong foundation to move ahead with more advanced tests and approaches in statistics. 
+In this lesson, you conducted a couple of simple tests comparing sample and population means, in an attempt to reject our null hypotheses. This provides you with a strong foundation to move ahead with more advanced tests and approaches later on.
